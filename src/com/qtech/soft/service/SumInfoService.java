@@ -1,11 +1,11 @@
-package com.neuedu.soft.service;
+package com.qtech.soft.service;
 
 import java.util.HashMap;
 import java.util.List;
 
 import android.content.Context;
 
-import com.neuedu.soft.dao.SumInfoDao;
+import com.qtech.soft.dao.SumInfoDao;
 
 public class SumInfoService {
 	private SumInfoDao sumInfoDao;

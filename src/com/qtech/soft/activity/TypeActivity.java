@@ -1,6 +1,7 @@
-package com.neuedu.soft.activity;
+package com.qtech.soft.activity;
 
-import com.neuedu.soft.service.TypeInfoService;
+import com.neuedu.soft.activity.R;
+import com.qtech.soft.service.TypeInfoService;
 
 import android.app.ActionBar;
 import android.app.Activity;

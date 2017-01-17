@@ -1,11 +1,11 @@
-package com.neuedu.soft.service;
+package com.qtech.soft.service;
 
 import java.util.HashMap;
 import java.util.List;
 
 import android.content.Context;
 
-import com.neuedu.soft.dao.OutcomeInfoDao;
+import com.qtech.soft.dao.OutcomeInfoDao;
 
 public class OutcomeInfoService {
 	private OutcomeInfoDao outcomeInfoDao;

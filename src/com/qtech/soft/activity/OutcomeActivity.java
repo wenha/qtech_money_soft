@@ -1,4 +1,4 @@
-package com.neuedu.soft.activity;
+package com.qtech.soft.activity;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -7,9 +7,10 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
-import com.neuedu.soft.service.IncomeInfoSevice;
-import com.neuedu.soft.service.OutcomeInfoService;
-import com.neuedu.soft.service.TypeInfoService;
+import com.neuedu.soft.activity.R;
+import com.qtech.soft.service.IncomeInfoSevice;
+import com.qtech.soft.service.OutcomeInfoService;
+import com.qtech.soft.service.TypeInfoService;
 
 import android.app.ActionBar;
 import android.app.Activity;

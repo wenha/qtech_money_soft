@@ -1,9 +1,10 @@
-package com.neuedu.soft.activity;
+package com.qtech.soft.activity;
 
 import java.util.HashMap;
 import java.util.regex.Pattern;
 
-import com.neuedu.soft.service.UserInfoService;
+import com.neuedu.soft.activity.R;
+import com.qtech.soft.service.UserInfoService;
 
 import android.app.ActionBar;
 import android.app.Activity;

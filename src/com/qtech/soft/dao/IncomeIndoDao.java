@@ -1,4 +1,4 @@
-package com.neuedu.soft.dao;
+package com.qtech.soft.dao;
 
 import java.util.HashMap;
 import java.util.List;

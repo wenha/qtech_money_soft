@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".WelcomeActivity"
+            android:name="com.qtech.soft.activity.WelcomeActivity"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.Black.NoTitleBar" >
             <intent-filter>
@@ -24,59 +24,59 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LoginActivity"
+            android:name="com.qtech.soft.activity.LoginActivity"
             android:label="@string/title_activity_login" >
         </activity>
         <activity
-            android:name=".RegActivity"
+            android:name="com.qtech.soft.activity.RegActivity"
             android:label="@string/title_activity_reg" >
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.qtech.soft.activity.MainActivity"
             android:label="@string/title_activity_main" >
         </activity>
         <activity
-            android:name=".TypeActivity"
+            android:name="com.qtech.soft.activity.TypeActivity"
             android:label="@string/title_activity_type" >
         </activity>
         <activity
-            android:name=".IncomeActivity"
+            android:name="com.qtech.soft.activity.IncomeActivity"
             android:label="@string/title_activity_income" >
         </activity>
         <activity
-            android:name=".OutcomeActivity"
+            android:name="com.qtech.soft.activity.OutcomeActivity"
             android:label="@string/title_activity_outcome" >
         </activity>
         <activity
-            android:name=".InfoActivity"
+            android:name="com.qtech.soft.activity.InfoActivity"
             android:label="@string/title_activity_info" >
         </activity>
         <activity
-            android:name=".EditMainActivity"
+            android:name="com.qtech.soft.activity.EditMainActivity"
             android:label="@string/title_activity_edit_main" >
         </activity>
         <activity
-            android:name=".SearchIncomeActivity"
+            android:name="com.qtech.soft.activity.SearchIncomeActivity"
             android:label="@string/title_activity_search_income" >
         </activity>
         <activity
-            android:name=".SearchOutcomeActivity"
+            android:name="com.qtech.soft.activity.SearchOutcomeActivity"
             android:label="@string/title_activity_search_outcome" >
         </activity>
         <activity
-            android:name=".IncomeDetailActivity"
+            android:name="com.qtech.soft.activity.IncomeDetailActivity"
             android:label="@string/title_activity_income_detail" >
         </activity>
         <activity
-            android:name=".DetailActivity"
+            android:name="com.qtech.soft.activity.DetailActivity"
             android:label="@string/title_activity_detail" >
         </activity>
         <activity
-            android:name=".SumActivity"
+            android:name="com.qtech.soft.activity.SumActivity"
             android:label="@string/title_activity_sum" >
         </activity>
         <activity
-            android:name=".JsqActivity"
+            android:name="com.qtech.soft.activity.JsqActivity"
             android:label="@string/title_activity_jsq" >
         </activity>
     </application>

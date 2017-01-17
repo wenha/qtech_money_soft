@@ -1,11 +1,11 @@
-package com.neuedu.soft.service;
+package com.qtech.soft.service;
 
 import java.util.HashMap;
 import java.util.List;
 
 import android.content.Context;
 
-import com.neuedu.soft.dao.IncomeIndoDao;
+import com.qtech.soft.dao.IncomeIndoDao;
 
 public class IncomeInfoSevice {
 	private IncomeIndoDao incomeInfoDao;

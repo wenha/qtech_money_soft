@@ -1,13 +1,14 @@
-package com.neuedu.soft.service;
+package com.qtech.soft.service;
 
 import java.util.HashMap;
 import java.util.List;
 
 
 
+
 import android.content.Context;
 
-import com.neuedu.soft.dao.TypeInfoDao;
+import com.qtech.soft.dao.TypeInfoDao;
 
 public class TypeInfoService {
 	private TypeInfoDao typeInfoDao;

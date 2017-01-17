@@ -1,4 +1,4 @@
-package com.neuedu.soft.service;
+package com.qtech.soft.service;
 
 import java.util.HashMap;
 /**
@@ -9,7 +9,7 @@ import java.util.List;
 
 import android.content.Context;
 
-import com.neuedu.soft.dao.UserInfoDao;
+import com.qtech.soft.dao.UserInfoDao;
 
 public class UserInfoService {
 	private UserInfoDao userinfoDao;

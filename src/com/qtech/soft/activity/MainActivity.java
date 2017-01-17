@@ -1,10 +1,12 @@
-package com.neuedu.soft.activity;
+package com.qtech.soft.activity;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
+
+import com.neuedu.soft.activity.R;
 
 import android.app.ActionBar;
 import android.app.Activity;

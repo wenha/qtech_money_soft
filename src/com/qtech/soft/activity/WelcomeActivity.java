@@ -1,8 +1,9 @@
-package com.neuedu.soft.activity;
+package com.qtech.soft.activity;
 
 import java.util.HashMap;
 
-import com.neuedu.soft.service.UserInfoService;
+import com.neuedu.soft.activity.R;
+import com.qtech.soft.service.UserInfoService;
 
 import android.app.Activity;
 import android.content.Intent;
