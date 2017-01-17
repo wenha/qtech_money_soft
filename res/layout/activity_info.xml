@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:background="@drawable/left" >
+    <LinearLayout 
+         android:id="@+id/info_line_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp" >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="个人信息"
+            android:textSize="23sp"
+            android:visibility="gone"/>
+    </LinearLayout>
+    <LinearLayout 
+        android:id="@+id/info_line_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/info_line_01"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0.13"
+            android:textSize="23sp"
+            android:text="用户名:" />
+        
+        <TextView 
+            android:id="@+id/info_text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="数据库中读"
+            android:textSize="23sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout 
+        android:id="@+id/info_line_03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/info_line_02"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0.12"
+            android:textSize="23sp"
+            android:text="性   别:" />
+
+        <TextView 
+            android:id="@+id/info_text_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="数据库中读"
+            android:textSize="23sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout 
+        android:id="@+id/info_line_04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/info_line_03"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center">
+       <Button 
+           android:id="@+id/info_btn_edit"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:background="@android:color/holo_blue_light"
+           android:text="修改"/>
+        <Button 
+           android:id="@+id/info_btn_back"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@android:color/holo_blue_light"
+           android:text="返回"
+           android:layout_weight="1"
+           android:layout_marginLeft="30dp"
+          />
+    </LinearLayout>
+
+</RelativeLayout>

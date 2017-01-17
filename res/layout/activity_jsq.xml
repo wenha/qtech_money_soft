@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" 
+    android:background="@drawable/left">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/l01">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="年利率：" />
+
+        <EditText 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/jsq_edit_lv"
+            android:hint="请输入年利率"/>
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l02"
+        android:layout_below="@id/l01"
+        android:layout_marginTop="30dp">
+        <TextView 
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="金    额："
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+    <EditText
+        android:id="@+id/jsq_edit_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="请输入金额"/>
+   </LinearLayout>
+   
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l03"
+        android:layout_below="@id/l02"
+        android:layout_marginTop="30dp">
+        <TextView       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="起存时间:"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+    <TextView 
+        android:id="@+id/jsq_text_begin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2015-01-01"/>
+  </LinearLayout>
+   <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l04"
+        android:layout_below="@id/l03"
+        android:layout_marginTop="30dp">
+        <TextView       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="结束时间:"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+    <TextView 
+        android:id="@+id/jsq_text_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2015-01-01"/>
+  </LinearLayout>
+  <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="40dp"
+      android:layout_below="@id/l04"
+      android:orientation="vertical"
+      android:layout_marginLeft="30dp"
+      android:layout_marginRight="30dp">
+    
+      <Button 
+          android:id="@+id/jsq_btn_back"
+          android:layout_height="wrap_content"
+          android:layout_width="fill_parent"
+          android:text="计算"
+          android:background="@android:color/holo_blue_light"/>
+      <TextView 
+          android:id="@+id/jsq_text_result"
+          android:layout_marginTop="20dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=""/>
+  </LinearLayout>
+    
+
+</RelativeLayout>

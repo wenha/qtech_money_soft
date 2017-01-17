@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">财务管理</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">登录</string>
+    <string name="title_activity_reg">注册</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_type">类别维护</string>
+    <string name="title_activity_income">日常收入</string>
+    <string name="title_activity_outcome">日常支出</string>
+    <string name="title_activity_info">个人信息</string>
+    <string name="title_activity_edit_main">修改</string>
+    <string name="title_activity_search_income">收入查询</string>
+    <string name="title_activity_search_outcome">支出查询</string>
+    <string name="title_activity_income_detail">收入细节</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_sum">统计数据</string>
+    <string name="title_activity_jsq">存款计算器</string>
+
+</resources>
